@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "GT-Flexa", Helvetica, Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+section {
+  background-image: linear-gradient(180deg, #17181c 70%, #000 30%);
+}
+.listing-section {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+.listing-section .listing-packages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.listing-section .listing-packages .title,
+.listing-section .listing-packages .images {
+  margin-top: 40px;
+}
+.listing-section .listing-packages .title h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.listing-section .listing-packages .title p {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.listing-section .listing-packages .images img {
+  filter: grayscale(1) invert(1);
+}
+.listing-section .lists {
+  max-width: 1340px;
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  gap: 30px;
+}
+.listing-section .lists .list-items {
+  width: 270px;
+  border: 1px solid #4561ec;
+  background-color: #000;
+  height: 620px;
+}
+.listing-section .lists .list-items h3 {
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 25px 0px 20px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.listing-section .lists .list-items h3::after {
+  content: " ";
+  width: 30px;
+  height: 6px;
+  background-color: #4561ec;
+  position: absolute;
+  left: 20px;
+  bottom: -7px;
+}
+.listing-section .lists .list-items p {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 120%;
+  width: 100%;
+  padding: 20px 25px 0px 20px;
+  font-weight: 500;
+}
+.listing-section .lists .list-items ul {
+  position: relative;
+  margin-top: 15px;
+}
+.listing-section .lists .list-items ul li {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 200%;
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+.listing-section .lists .list-items ul li::before {
+  content: "";
+  border-radius: 50%;
+  background-color: #4561ec;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 16px;
+  margin-top: 12px;
+}
+.listing-section .lists .list-items ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.listing-section .lists .list-items .get-server {
+  margin-top: 60px;
+}
+.listing-section .lists .list-items .get-server a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4561ec;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+.listing-section .lists .list-items .get-server a:hover {
+  background-color: #2c40a3;
+}

@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+}
+header {
+  max-width: 1365px;
+}
+header .header-information {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(70, 69, 69);
+}
+header .header-information .numbers {
+  margin-left: 50px;
+}
+header .header-information .numbers i {
+  margin-left: 30px;
+}
+header .header-information .numbers a {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #7e93fb;
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 7px;
+}
+header .header-information .numbers a:hover {
+  text-decoration: underline;
+}
+header .header-information .numbers span {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  padding-left: 10px;
+}
+header .header-information .contact {
+  margin-right: 50px;
+}
+header .header-information .contact a {
+  margin-right: 30px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #7e93fb;
+  text-decoration: none;
+}
+header nav {
+  margin-top: 20px;
+}
+header nav .navbar-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .navbar-menu .logo h2 {
+  font-size: 43px;
+  font-weight: 500;
+  color: white;
+}
+header nav .navbar-menu .navbar-lists ul li {
+  display: inline-block;
+  padding: 0 30px;
+}
+header nav .navbar-menu .navbar-lists ul li a {
+  text-decoration: none;
+  color: #7e93fb;
+  font-size: 14px;
+  font-weight: 600;
+}
+header nav .navbar-menu .navbar-lists ul li a:hover {
+  text-decoration: underline;
+}
+header nav .navbar-menu .navbar-lists ul .company {
+  position: relative;
+}
+header nav .navbar-menu .navbar-lists ul .company ul {
+  position: absolute;
+  left: -30px;
+  top: 30px;
+  width: 300px;
+  height: 140px;
+  background-color: black;
+  display: none;
+}
+header nav .navbar-menu .company ul li {
+  display: inline-block;
+  margin-top: 20px;
+}
+header nav .navbar-menu .company ul li a {
+  color: white;
+  font-size: 20px;
+  padding: 20px 5px;
+  line-height: 40px;
+}
+header nav .navbar-menu .navbar-lists ul .company:hover ul {
+  display: block;
+}
+header nav .navbar-menu .login a:first-child {
+  color: #7e93fb;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  padding-right: 20px;
+}
+header nav .navbar-menu .login a:first-child:hover {
+  text-decoration: underline;
+}
+header nav .navbar-menu .login a:last-child {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #4561ec;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+#section-1 .rent-infos{
+    max-width: 1340px;
+    display: flex;
+    justify-content: space-between;
+}
+#section-1 .rent-infos .blog-1{
+    margin-left: 60px;
+    margin-top: 100px;
+}
+#section-1 .rent-infos .blog-2{
+    margin-top: 100px;
+    margin-right: 60px;
+}
+#section-1 .rent-infos .blog-1 .rent-insights h2{
+font-size: 65px;
+color: white;
+font-weight: 600;
+}
+#section-1 .rent-infos .blog-1 .rent-insights p{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #fff;
+    width: 500px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+#section-1 .rent-infos .blog-1 .rent-insights a{
+    display: inline-block;
+    color: white;
+    background-color: #4561ec;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#section-1 .rent-infos .blog-1  .submit h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+#section-1 .rent-infos .blog-1  .submit input{
+    width: 450px;
+    height: 40px;
+    background-color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+#section-1 .rent-infos .blog-1  .submit p{
+    color: white;
+    font-size: 15px;
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+#section-1 .rent-infos .blog-1  .submit a{
+    display: inline-block;
+    background-color: black;
+    border: 1px solid #4561ec;
+    border-radius: 5px;
+    color: #4561ec;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+#section-1 .rent-infos .blog-2{
+    background-color: white;
+    width: 550px;
+    height: 570px;
+    border-radius: 5px;
+   
+}
+#section-1 .rent-infos .blog-2 .image{
+    width: 550px;
+    /* border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    overflow: hidden; */
+}
+#section-1 .rent-infos .blog-2 .image img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+  
+}
+#section-1 .rent-infos .blog-2 .blog-infos .information .date{
+font-size: 14px;
+font-weight: 700;
+padding: 20px 25px;
+}
+#section-1 .rent-infos .blog-2 .blog-infos .information span a{
+text-decoration: none;
+color: #7e93fb;
+}
+#section-1 .rent-infos .blog-2 .blog-infos .information .head p{
+font-size: 28px;
+text-decoration: none;
+color: black;
+font-weight: 600;
+line-height: 33px;
+padding-left: 20px;
+}
+#section-1 .rent-infos .blog-2 .blog-infos .information  .author{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+#section-1 .rent-infos .blog-2 .blog-infos .information  .author img{
+  width: 40px;
+  height: 40px;
+}
+#section-1 .rent-infos .blog-2 .blog-infos .information  .author p{
+text-align: center;
+  width: 50px;
+}
+#section-1 .rent-infos .blog-2 .blog-infos .information .tags{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+#section-1 .rent-infos .blog-2 .blog-infos .information .tags a{
+  background-color:#bfc1cc;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #4561ec;
+  font-weight: 500;
+}
+#section-2 {
+  background-color: white;
+  margin-top: 60px;
+}
+#section-2 .blogs{
+max-width: 1365px;
+display: flex;
+justify-content: center;
+}
+#section-2 .blogs .blog-1{
+ max-width: 600px;
+  margin-top: 170px;
+}
+
+#section-2 .blogs .blog-1 h2{
+  font-size: 50px;
+  font-weight: 700;
+}
+#section-2 .blogs .blog-1 p{
+  font-size: 15px;
+  margin-top: 30px;
+  line-height: 28px;
+  font-weight: 500;
+}
+#section-2 .blogs .blog-1 a{
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  color: white;
+  background-color: #4561ec;
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 500;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+#section-2 .cards{
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+#section-2 .cards .card-items{
+  display: flex;
+  justify-content: space-around;
+  height: 120px;
+  background-color: #F4F6FF;
+  margin-top: 20px;
+}
+#section-2 .cards .card-items .digits{
+  font-size: 35px;
+  line-height:120px ;
+  font-weight: 500;
+  padding-left: 20px;
+  width: 30%;
+}
+#section-2 .cards .card-items .text{
+  line-height: 120px;
+padding:0 20px;
+width: 70%;
+}
